@@ -1,8 +1,8 @@
-
-import { Home } from '@/pages';
+import { RouterProvider } from 'react-router-dom';
+import { router } from '@/router';
 
 function App(): JSX.Element {
-  return <Home />;
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
