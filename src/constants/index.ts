@@ -7,5 +7,5 @@ export const APP_NAME = 'React Template';
 export const ROUTES = {
   HOME: '/',
   ABOUT: '/about',
-  CONTACT: '/contact'
+  CONTACT: '/contact',
 } as const;
