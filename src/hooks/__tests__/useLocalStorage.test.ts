@@ -29,11 +29,11 @@ describe('useLocalStorage', () => {
   it('handles complex objects', () => {
     const initialObj = { name: 'test', count: 0 };
     const { result } = renderHook(() => useLocalStorage('obj-key', initialObj));
-    
+
     act(() => {
       result.current[1]({ ...initialObj, count: 1 });
     });
-    
+
     expect(result.current[0]).toEqual({ name: 'test', count: 1 });
   });
 });
