@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.1](https://github.com/parvejhossain55/react-template/compare/v0.0.0...v0.0.1) (2026-07-27)
+
+### Features
+
+- automatic CHANGELOG.md and semantic version generation feature added ([a9a70fe](https://github.com/parvejhossain55/react-template/commit/a9a70fe947185f53cf1fba6bfbbb470c0c2bfbb3))
+
 ## 0.0.0 (2026-07-27)
 
 ### Features
