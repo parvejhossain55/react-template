@@ -9,7 +9,7 @@ export const authApi = {
     return response.data;
   },
 
-  async register(credential: RegisterCredentials): Promise<{ accessToken: string }> {
+  async register(credential: RegisterCredentials): Promise<UserResponse> {
     const response = await axios.post(`${API_BASE_URL}/auth/register`, credential);
     return response.data;
   },
